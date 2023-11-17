@@ -104,3 +104,8 @@ body {
     margin-bottom: 20px;
     margin-top: 30px;
   }
+  /* Add any additional styles for the map container if needed */
+  #map {
+    height: 500px;
+    width: 75%;
+  }
