@@ -1,0 +1,106 @@
+body {
+    background-color: #19b521;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+  }
+  
+  nav {
+    overflow: hidden;
+    background-color: #1325c7;
+  }
+  
+  footer {
+    width: 100%;
+    height: 60px;
+    background-color: #0b066f;
+    padding: 30px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  iframe {
+    width: 50%; 
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px; 
+    border: 0px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+  }
+  
+  nav ul li {
+    float: left;
+    position: relative;
+    display: block;
+    right: 50%;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Baskerville', serif;
+    font-size: 24px;
+    text-shadow: -2px 0px #b91010, 0px 2px #e7003a, 2px 0px #9a0429, 0px -2px #db1e4e;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: Playfair Display, serif;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #A0C4FF;
+  }
+  
+  section {
+    color: black;
+    background: linear-gradient(180deg, #D4E7FF 80px, white 10px);
+    width: 80%;
+    overflow: auto;
+    padding: 20px;
+    box-shadow: 0 0 0 3px #39ac13, 0 0 0 10px #1cb85d;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 10px;
+    font-family: Playfair Display, serif;
+    font-size: 18px;
+  }
+  
+  .site-title {
+    color: #000;
+    font-family: 'Baskerville', serif;
+    text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
+    font-size: 48px;
+    padding-left: 50px;
+    margin: 50px 10% 50px auto;
+  }
+  
+  .sec-title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Baskerville', serif;
+    text-shadow: -2px 0px #4093d2, 0px 2px #4c85ef, 2px 0px #2733c1, 0px -2px #473ada;
+    color: #28bb0e;
+    font-size: 30px;
+  }
+  
+  .sub-title {
+    color: #19b521;
+    font-family: 'Baskerville', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
