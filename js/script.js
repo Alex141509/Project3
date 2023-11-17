@@ -5,16 +5,6 @@ function initMap() {
       center: soldierFieldLatLng,
     });
   
-    const contentString =
-      '<div id="content">' +
-      '<div id="siteNotice">' +
-      "</div>" +
-      '<h1 id="firstHeading" class="firstHeading">Soldier Field</h1>' +
-      '<div id="bodyContent">' +
-      "<p><b>Soldier Field</b> is a football stadium located on the Near South Side of Chicago, Illinois. It is home to the Chicago Bears, the city's National Football League (NFL) franchise. The stadium has a seating capacity of 61,500, making it the third-largest stadium in the NFL.</p>" +
-      '<p>The Chicago Bears have a rich history, and Soldier Field has witnessed many iconic moments in football history.</p>' +
-      "</div>" +
-      "</div>";
   
     const infowindow = new google.maps.InfoWindow({
       content: contentString,
