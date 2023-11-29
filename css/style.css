@@ -50,6 +50,7 @@ body {
     text-decoration: none;
     font-family: 'Baskerville', serif;
     font-size: 24px;
+    list-style: none ;
   }
   
   nav ul li a {
@@ -59,8 +60,13 @@ body {
     color: 5f00ff;
     font-family: Playfair Display, serif;
     font-size: 18px;
+    list-style: none ;
   }
   
+  section ul{
+    list-style: none;
+  }
+
   nav ul li a:hover {
     background-color: #A0C4FF;
   }
