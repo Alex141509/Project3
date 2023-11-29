@@ -111,7 +111,39 @@ body {
     margin-bottom: 20px;
     margin-top: 30px;
   }
-
+  @media screen and (min-width: 0px) and (max-width: 700px){
+    .page-content{
+      margin: 0.5em;
+      
+    }
+  
+    body {
+      background-color: #ff978b;
+      background-size: 100%;
+    }
+  
+    #navbar{
+      padding: 1em 0;
+    }
+  
+    #navbar ul{
+      text-align: left;
+      padding: 0;
+    }
+  
+    #navbar ul li a{
+      font-size: larger;
+      margin: 0.5em;
+    }
+  
+    p {
+      font-size: larger;
+    }
+  
+    .reg-header{
+      background-color: rgb(172, 159, 150);
+    }
+  }
   #map {
     height: 500px;
     width: 75%;
