@@ -34,11 +34,11 @@ body {
   }
   nav ul {
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
     position: relative;
     left: 50%;
     float: left;
-    list-style: none;
+    list-style: none ; 
   }
   
   nav ul li {
